@@ -1,0 +1,136 @@
+[0.007s] Invoking command in '/home/robot/ros2_ws/src/openarm_description/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/ros2_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/src/openarm_description/install/openarm_description
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.513s] -- Configured cppcheck include dirs: 
+[0.513s] -- Configured cppcheck exclude dirs and/or files: 
+[0.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.515s] -- Added test 'lint_cmake' to check CMake code style
+[0.516s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.519s] -- Added test 'uncrustify' to check C / C++ code style
+[0.519s] -- Configured uncrustify additional arguments: 
+[0.520s] -- Added test 'xmllint' to check XML markup files
+[0.520s] -- Configuring done
+[0.521s] -- Generating done
+[0.522s] -- Build files have been written to: /home/robot/ros2_ws/src/openarm_description/build/openarm_description
+[0.526s] Invoked command in '/home/robot/ros2_ws/src/openarm_description/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/ros2_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/src/openarm_description/install/openarm_description
+[0.527s] Invoking command in '/home/robot/ros2_ws/src/openarm_description/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros2_ws/src/openarm_description/build/openarm_description -- -j22 -l22
+[0.567s] Invoked command in '/home/robot/ros2_ws/src/openarm_description/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros2_ws/src/openarm_description/build/openarm_description -- -j22 -l22
+[0.578s] Invoking command in '/home/robot/ros2_ws/src/openarm_description/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/ros2_ws/src/openarm_description/build/openarm_description
+[0.585s] -- Install configuration: ""
+[0.585s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/launch
+[0.585s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/launch/display_openarm.launch.py
+[0.585s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes
+[0.586s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm
+[0.586s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10
+[0.586s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual
+[0.586s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link4.stl
+[0.589s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link6.dae
+[0.594s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link1.dae
+[0.600s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link7.stl
+[0.603s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link0.dae
+[0.604s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link5.stl
+[0.607s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link7.dae
+[0.610s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link2.stl
+[0.611s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link1.stl
+[0.614s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link4.dae
+[0.616s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link3.stl
+[0.618s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link6.stl
+[0.620s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link0.stl
+[0.622s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link2.dae
+[0.624s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link5.dae
+[0.628s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link3.dae
+[0.631s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision
+[0.631s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link0_symp.stl
+[0.631s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link5_symp.stl
+[0.631s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link4_symp.stl
+[0.631s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link3_symp.stl
+[0.631s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link7_symp.stl
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link6_symp.stl
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link2_symp.stl
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link1_symp.stl
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual/finger.stl
+[0.632s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual/finger.dae
+[0.634s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual/hand.dae
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/collision
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/collision/finger.stl
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/collision/hand.stl
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body/v10
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body/v10/visual
+[0.635s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body/v10/visual/body_link0.stl
+[0.638s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body/v10/visual/body_link0.dae
+[0.642s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body/v10/collision
+[0.642s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/meshes/body/v10/collision/body_link0_symp.stl
+[0.642s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/rviz
+[0.642s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/rviz/bimanual.rviz
+[0.642s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/rviz/arm_only.rviz
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/arm
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/arm/openarm_macro.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/arm/openarm_arm.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ee
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ee/openarm_hand.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ee/openarm_hand_macro.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ee/openarm_hand_arguments.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ee/ee_with_one_link.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/body
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/body/openarm_body_macro.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/body/openarm_body.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ros2_control
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ros2_control/openarm.ros2_control.xacro
+[0.643s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/ros2_control/openarm.bimanual.ros2_control.xacro
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/robot
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/robot/v10.urdf.xacro
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/urdf/robot/openarm_robot.xacro
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm/v10
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm/v10/kinematics_link.yaml
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm/v10/inertials.yaml
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm/v10/joint_limits.yaml
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm/v10/kinematics.yaml
+[0.644s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/arm/v10/kinematics_offset.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/body
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/body/v10
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/body/v10/kinematics_link.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/body/v10/inertials.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/body/v10/kinematics.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/hand
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/hand/openarm_hand
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/hand/openarm_hand/kinematics_link.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/hand/openarm_hand/inertials.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/hand/openarm_hand/joint_limits.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/config/hand/openarm_hand/kinematics.yaml
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/ament_index/resource_index/package_run_dependencies/openarm_description
+[0.645s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/ament_index/resource_index/parent_prefix_path/openarm_description
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/environment/ament_prefix_path.sh
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/environment/ament_prefix_path.dsv
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/environment/path.sh
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/environment/path.dsv
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/local_setup.bash
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/local_setup.sh
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/local_setup.zsh
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/local_setup.dsv
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/package.dsv
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/ament_index/resource_index/packages/openarm_description
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/cmake/openarm_descriptionConfig.cmake
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/cmake/openarm_descriptionConfig-version.cmake
+[0.646s] -- Installing: /home/robot/ros2_ws/src/openarm_description/install/openarm_description/share/openarm_description/package.xml
+[0.647s] Invoked command in '/home/robot/ros2_ws/src/openarm_description/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/ros2_ws/src/openarm_description/build/openarm_description

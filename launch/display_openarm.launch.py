@@ -15,16 +15,23 @@
 import os
 import xacro
 
+# 该函数用于获取ROS 2包的共享目录路径
 from ament_index_python.packages import get_package_share_directory
 
+# LaunchDescription用于定义启动描述，LaunchContext用于提供启动上下文信息
 from launch import LaunchDescription, LaunchContext
+
+# DeclareLaunchArgument用于声明启动参数，OpaqueFunction用于执行自定义的Python函数 
 from launch.actions import DeclareLaunchArgument, OpaqueFunction
+
+# 该类用于获取启动参数的配置值
 from launch.substitutions import LaunchConfiguration
 
 from launch_ros.actions import Node
 
-
+# 用于生成机器人状态发布器节点
 def robot_state_publisher_spawner(context: LaunchContext, arm_type, ee_type, bimanual):
+    # 通过LaunchContext对象获取启动参数的实际值，并将其转换为字符串
     arm_type_str = context.perform_substitution(arm_type)
     ee_type_str = context.perform_substitution(ee_type)
     bimanual_str = context.perform_substitution(bimanual)
@@ -34,6 +41,8 @@ def robot_state_publisher_spawner(context: LaunchContext, arm_type, ee_type, bim
         "urdf", "robot", f"{arm_type_str}.urdf.xacro"
     )
 
+    # 处理xacro文件，将其中的参数进行替换，并生成最终的URDF XML字符串
+    # mappings参数用于指定要替换的参数及其值
     robot_description = xacro.process_file(
         xacro_path,
         mappings={
@@ -43,6 +52,7 @@ def robot_state_publisher_spawner(context: LaunchContext, arm_type, ee_type, bim
         }
     ).toprettyxml(indent="  ")
 
+# 机器人状态发布器节点用于发布机器人的URDF信息，以便其他节点可以获取机器人的模型信息
     return [
         Node(
             package="robot_state_publisher",
@@ -74,6 +84,8 @@ def rviz_spawner(context: LaunchContext, bimanual):
     ]
 
 
+
+# 用于生成启动描述
 def generate_launch_description():
     arm_type_arg = DeclareLaunchArgument(
         "arm_type",
@@ -96,6 +108,10 @@ def generate_launch_description():
     ee_type = LaunchConfiguration("ee_type")
     bimanual = LaunchConfiguration("bimanual")
 
+
+
+    # 创建一个OpaqueFunction对象，用于执行robot_state_publisher_spawner函数
+    # 该函数将生成机器人状态发布器节点
     robot_state_publisher_loader = OpaqueFunction(
         function=robot_state_publisher_spawner,
         args=[arm_type, ee_type, bimanual]
@@ -118,3 +134,6 @@ def generate_launch_description():
         ),
         rviz_loader,
     ])
+
+
+##ros2 launch openarm_description display_openarm.launch.py arm_type:=v10 ee_type:=openarm_hand bimanual:=true
